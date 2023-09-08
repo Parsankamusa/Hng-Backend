@@ -14,7 +14,7 @@ def info():
     github_file_url = "https://github.com/Parsankamusa/ZURI-INTERNSHIP/blob/main/STAGE%201/Main.py"
     github_repo_url = "https://github.com/Parsankamusa/ZURI-INTERNSHIP/tree/main"
 
-    # Create the JSON object to be returned
+    # Creating the JSON object to be returned
     info = {
         "slack_name": 'Musa Parsanka',
         "current_day": 'Friday',
