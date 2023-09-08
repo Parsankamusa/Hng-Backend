@@ -3,7 +3,7 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route('/info', methods=['GET'])
+@app.route('/', methods=['GET'])
 def info():
     slack_name = request.args.get('Slack name', default="Musa Parsanka", type=str)
     track = request.args.get('track', default="backend", type=str)
@@ -11,17 +11,17 @@ def info():
     current_day = datetime.datetime.utcnow().strftime('%A')
     utc_time = datetime.datetime.utcnow().isoformat()
 
-    github_file_url = ""
-    github_repo_url = ""
+    github_file_url = "https://github.com/Parsankamusa/ZURI-INTERNSHIP/blob/main/STAGE%201/Main.py"
+    github_repo_url = "https://github.com/Parsankamusa/ZURI-INTERNSHIP/tree/main"
 
     # Create the JSON object to be returned
     info = {
         "slack_name": 'Musa Parsanka',
         "current_day": 'Friday',
-        "utc_time": '9:00 am',
+        "utc_time": '2023-09-08T15:11:00Z',
         "track": 'backend',
-        "github_file_url": '',
-        "github_repo_url": '',
+        "github_file_url": 'https://github.com/Parsankamusa/ZURI-INTERNSHIP/blob/main/STAGE%201/Main.py',
+        "github_repo_url": 'https://github.com/Parsankamusa/ZURI-INTERNSHIP/tree/main',
         "status_code": 200
     }
 
