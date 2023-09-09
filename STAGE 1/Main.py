@@ -17,8 +17,8 @@ def info():
     # Creating the JSON object to be returned
     info = {
         "slack_name": 'Musa Parsanka',
-        "current_day": 'Friday',
-        "utc_time": '2023-09-08T15:11:00Z',
+        "current_day": current_day,
+        "utc_time": utc_time,
         "track": 'backend',
         "github_file_url": 'https://github.com/Parsankamusa/ZURI-INTERNSHIP/blob/main/STAGE%201/Main.py',
         "github_repo_url": 'https://github.com/Parsankamusa/ZURI-INTERNSHIP/tree/main',
