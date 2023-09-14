@@ -122,7 +122,7 @@ Your Flask server should now be running at http://localhost:5000.
    $   curl -X DELETE http://localhost:5000/api/John%20Doe
    {
    "message": "Person deleted successfully"
-}
+   }
 
    ```
 
