@@ -85,9 +85,10 @@ Your Flask server should now be running at http://localhost:5000.
 
 ## Testing 
  The documentation include test  using postman or curl to verify the API's functionality.
-  ** CURL TESTING
+  * CURL TESTING
  Documentation for curl testing https://www.baeldung.com/curl-rest
- Run the following command to install dependencies:
+
+ *Run the following command to install dependencies:
    ```bash
    curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
    ```
