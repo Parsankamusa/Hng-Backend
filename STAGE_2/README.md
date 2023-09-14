@@ -95,7 +95,7 @@ Your Flask server should now be running at http://localhost:5000.
    ```
      2. GET
    ```bash
-  curl http://localhost:5000/api/<person_name>
+   curl http://localhost:5000/api/<person_name>
    ```
      3. DELETE
    ```bash
