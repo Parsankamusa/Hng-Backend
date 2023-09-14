@@ -87,6 +87,11 @@ Your Flask server should now be running at http://localhost:5000.
 * The documentation include test  using postman or curl to verify the API's functionality.
     https://www.baeldung.com/curl-rest
   here is a link  for post documentation [postman](https://documenter.getpostman.com/view/24185831/2s9YC2zZAG)
+  
+## UML DIAGRAMS 
+* An Image to explain CRUD operation in an api
+  ![image](https://github.com/Parsankamusa/Hng-Backend/assets/91263172/18d132a4-208b-4cff-9aa3-c2c18bf6fc18)
+
 ## Testing 
   * CURL TESTING
  * Run the following commands to query your api:
