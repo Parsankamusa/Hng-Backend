@@ -41,15 +41,7 @@ Follow these steps to set up and run the project:
    ```bash
    pip install request
    ```
-5. creating the database model:
-   ```bash
-   class Person(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-with app.app_context():
-    db.create_all()
-   ```
-6. Create a app.py  file in the project root and configure your SQLAIchemy:
+5. Create a app.py  file in the project root and configure your SQLAIchemy:
    ```bash
    from flask import Flask, request, jsonify
    from flask_sqlalchemy import SQLAlchemy
@@ -57,6 +49,15 @@ with app.app_context():
    app = Flask(__name__)
    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db' 
    db = SQLAlchemy(app)
+   ```
+   ```
+6. Create a app.py  file in the project root and configure your SQLAIchemy:
+   ```bash
+  class Person(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+with app.app_context():
+    db.create_all()
    ```
    ```
 7. creating a route to add a new person:
