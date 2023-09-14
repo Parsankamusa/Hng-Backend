@@ -83,11 +83,13 @@ Follow these steps to set up and run the project:
 
 Your Flask server should now be running at http://localhost:5000.
 
+ ## Documentation
+    * The documentation include test  using postman or curl to verify the API's functionality.
+    https://www.baeldung.com/curl-rest
 ## Testing 
  The documentation include test  using postman or curl to verify the API's functionality.
   * CURL TESTING
- Documentation for curl testing https://www.baeldung.com/curl-rest
-
+ 
  * Run the following commands to query your api:
      1. POST
    ```bash
