@@ -56,4 +56,4 @@ Follow these steps to set up and run the project:
    python app.py
    ```
 
-Your NestJS server should now be running at http://localhost:5000.
+Your Flask server should now be running at http://localhost:5000.
