@@ -89,10 +89,16 @@ Your Flask server should now be running at http://localhost:5000.
  Documentation for curl testing https://www.baeldung.com/curl-rest
 
  * Run the following commands to query your api:
+     1. POST
    ```bash
    curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
    ```
-  ```bash
+     2. GET
+   ```bash
+  curl http://localhost:5000/api/<person_name>
+   ```
+     3. DELETE
+   ```bash
     curl -X DELETE http://localhost:5000/api/<person_name>
    ```
 
