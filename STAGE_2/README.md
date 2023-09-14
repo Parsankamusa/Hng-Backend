@@ -6,7 +6,7 @@ This is a simple REST API bult using Flask framework for managing persons. It al
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [UML Diagram](#database-modeling-)
+- [UML Diagram]()
 - [Documentation](#documentation-)
 - [Testing](#testing-)
 
