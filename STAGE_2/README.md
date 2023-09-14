@@ -89,8 +89,9 @@ Your Flask server should now be running at http://localhost:5000.
   here is a link  for post documentation [postman](https://documenter.getpostman.com/view/24185831/2s9YC2zZAG)
   
 ## UML-DIAGRAMS 
+ * link to the UML diagram :https://app.creately.com/d/WGjpwxpemqJ/edit
 * An Image to explain CRUD operation in an api
-  ![image](https://github.com/Parsankamusa/Hng-Backend/assets/91263172/18d132a4-208b-4cff-9aa3-c2c18bf6fc18)
+  ![UML Diagram](<hngx uml diagram.png>))
 
 ## Testing 
   * CURL TESTING
