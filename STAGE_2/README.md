@@ -98,14 +98,31 @@ Your Flask server should now be running at http://localhost:5000.
      1. POST
    ```bash
    curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
+   Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
+   $ curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
+   {
+   "message": "Person created successfully"
+   }
    ```
      2. GET
    ```bash
    curl http://localhost:5000/api/<person_name>
+   Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
+   $   curl http://localhost:5000/api/John%20Doe
+   {
+   "id": 7,
+   "name": "John Doe"
+   }
    ```
      3. DELETE
    ```bash
     curl -X DELETE http://localhost:5000/api/<person_name>
+   Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
+   $   curl -X DELETE http://localhost:5000/api/John%20Doe
+   {
+   "message": "Person deleted successfully"
+}
+
    ```
 
    
