@@ -53,17 +53,17 @@ Follow these steps to set up and run the project:
    ```
 6. Create a app.py  file in the project root and configure your SQLAIchemy:
    ```bash
-  class Person(db.Model):
+    class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-with app.app_context():
+    with app.app_context():
     db.create_all()
    ```
    ```
 7. creating a route to add a new person:
    ```bash
    @app.route('/api', methods=['POST'])
-def create_person():
+   def create_person():
     data = request.get_json()
     if 'name' not in data:
         return jsonify({'message': 'Name is required'}), 400
