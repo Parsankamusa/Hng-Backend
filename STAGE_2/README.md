@@ -7,8 +7,8 @@ This is a simple REST API bult using Flask framework for managing persons. It al
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [UML Diagram]()
-- [Documentation](#documentation-)
-- [Testing](#testing-)
+- [Documentation](#documentation)
+- [Testing](#testing)
 
 ## Prerequisites
 Before getting started, ensure you have the following installed on your system:
