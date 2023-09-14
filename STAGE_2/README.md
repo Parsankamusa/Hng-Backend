@@ -51,7 +51,7 @@ Follow these steps to set up and run the project:
    db = SQLAlchemy(app)
    ```
    ```
-6. Create a app.py  file in the project root and configure your SQLAIchemy:
+6. Creating a database model:
    ```bash
     class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
