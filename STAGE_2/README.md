@@ -125,4 +125,7 @@ Your Flask server should now be running at http://localhost:5000.
    }
 
    ```
+## Deployment
+https://parsanka.pythonanywhere.com/api/Musa%20Parsanka
+
   
