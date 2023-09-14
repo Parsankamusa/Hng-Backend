@@ -91,16 +91,16 @@ Your Flask server should now be running at http://localhost:5000.
 ## UML-DIAGRAMS 
  * link to the UML diagram :https://app.creately.com/d/WGjpwxpemqJ/edit
 * An Image to explain CRUD operation in an api
-  ![UML Diagram](<hngx uml diagram.png>))
+  ![UML Diagram](<hngx uml diagram.png>)
 
 ## Testing 
   * CURL TESTING
  * Run the following commands to query your api:
      1. POST
    ```bash
-   curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
+   curl -X POST -H "Content-Type: application/json" -d '{"name": "John Odoyo"}' http://127.0.0.1:5000/api
    Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
-   $ curl -X POST -H "Content-Type: application/json" -d '{"name": "John Doe"}' http://127.0.0.1:5000/api
+   $ curl -X POST -H "Content-Type: application/json" -d '{"name": "John Odoyo"}' http://127.0.0.1:5000/api
    {
    "message": "Person created successfully"
    }
@@ -109,17 +109,17 @@ Your Flask server should now be running at http://localhost:5000.
    ```bash
    curl http://localhost:5000/api/<person_name>
    Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
-   $   curl http://localhost:5000/api/John%20Doe
+   $   curl http://localhost:5000/api/John%20Odoyo
    {
    "id": 7,
-   "name": "John Doe"
+   "name": "John Odoyo"
    }
    ```
      3. DELETE
    ```bash
     curl -X DELETE http://localhost:5000/api/<person_name>
    Musa@DESKTOP-RPBI479 MINGW64 ~/Desktop/hngx
-   $   curl -X DELETE http://localhost:5000/api/John%20Doe
+   $   curl -X DELETE http://localhost:5000/api/John%20Odoyo
    {
    "message": "Person deleted successfully"
    }
