@@ -88,7 +88,7 @@ Your Flask server should now be running at http://localhost:5000.
     https://www.baeldung.com/curl-rest
   here is a link  for post documentation [postman](https://documenter.getpostman.com/view/24185831/2s9YC2zZAG)
   
-## UML-DIAGRAMS 
+## UML-DIAGRAM 
  * link to the UML diagram :https://app.creately.com/d/WGjpwxpemqJ/edit
 * An Image to explain CRUD operation in an api
   ![UML Diagram](<hngx uml diagram.png>)
